@@ -1,12 +1,12 @@
-html {
-    height: 100%;
-    min-height: 100%;
+*{
+    box-sizing: border-box;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
+    margin-bottom:10rem:
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -51,18 +51,17 @@ nav a:hover {
     font-size: 30px;
 } 
         
-footer {
-    width: 100%;
-    height: 0.5rem;
+footer{
+    background-color: mediumslateblue;
     color: #fff;
-    background-color: #1b357e;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem 0;
-    margin-top: auto;
-    position: fixed;
-    display: flex;
+    padding:20px ;
+    text-align: center;
+    position:fixed;
     bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    z-index: 1;
 }
 
 .rede-social {
@@ -91,15 +90,6 @@ footer {
     margin-top: 30px;
 }
 
-.fordranger {
-    width: 70%;
-	margin: 0 0 10px 0;
-     
-}
-
-.conteudo-principal p {
-    margin: 0 15px 5px 15px;   
-}
 
 /* Conteúdo Pág Lançamento */
 
@@ -113,6 +103,9 @@ footer {
 	width: 100%;
     
 
+}
+.fordranger {
+    width: 70%;
 }
 
 /* Conteúdo Pág Contato*/
